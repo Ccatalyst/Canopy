@@ -17,10 +17,11 @@ function App() {
 	return (
 		<ThemeProvider theme={theme}>
 			<CssBaseline />
-
 			<Router>
 				<Routes>
 					<Route path="/" element={<Home />} />
+					{/* <Route path="login" element={<Login />} /> */}
+					{/* <Route path="register" element={<Register />} /> */}
 				</Routes>
 			</Router>
 		</ThemeProvider>
