@@ -5,7 +5,7 @@ import { Typography } from "@mui/material";
 const Home = (): JSX.Element => {
 	return (
 		<Grid container>
-			<Typography>Hi Mom</Typography>
+			<Typography>Testing Github</Typography>
 		</Grid>
 	);
 };
